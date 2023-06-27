@@ -21,7 +21,7 @@ hamb.addEventListener("click", hambHandler);
 
 function hambHandler(e) {
   e.preventDefault();
-  // Переключаем стили элементов при клике
+    
   popup.classList.toggle("open");
   hamb.classList.toggle("active");
   body.classList.toggle("noscroll");
